@@ -1,0 +1,51 @@
+jf-form-buttons,
+.form-html a.jf-form-buttons,
+.form-pagebreak-next,
+.form-submit-button.submit-button.jf-form-buttons.jsTest-submitField {
+  display: flex;
+  width: auto;
+  cursor: pointer;
+  align-items: center !important;
+  justify-content: center !important;
+  border-radius: 9999px !important;
+  background-color: #003C71 !important;
+  padding: 0.75rem 1.5rem !important;
+  text-align: center !important;
+  font-family: Gellix-Bold, sans-serif !important;
+  font-size: 1.125rem !important;
+  font-weight: bold !important;
+  line-height: 1 !important;
+  color: #FFF !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition-property: color, background-color, border-color, fill, stroke,
+    -webkit-text-decoration-color !important;
+  transition-property: color, background-color, border-color,
+    text-decoration-color, fill, stroke !important;
+  transition-property: color, background-color, border-color,
+    text-decoration-color, fill, stroke, -webkit-text-decoration-color !important;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1) !important;
+  transition-duration: 0.1s !important;
+  border: 0 !important;
+  text-decoration: none !important;
+}
+
+jf-form-buttons:hover,
+.form-html a.jf-form-buttons:hover,
+.form-pagebreak-next:hover,
+.form-submit-button.submit-button.jf-form-buttons.jsTest-submitField:hover {
+background-color: #00B5E2 !important;
+color: #003C71 !important;
+}
+
+
+jf-form-buttons:focus,
+.form-html a.jf-form-buttons:focus,
+.form-pagebreak-next:focus,
+.form-submit-button.submit-button.jf-form-buttons.jsTest-submitField:focus,
+jf-form-buttons:active,
+.form-html a.jf-form-buttons:active,
+.form-pagebreak-next:active,
+.form-submit-button.submit-button.jf-form-buttons.jsTest-submitField:active {
+text-decoration: none !important;
+}
